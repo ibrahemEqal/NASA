@@ -21,5 +21,8 @@ Manual browser checks completed against the local preview:
 - Selected a missing perturbation family and verified its empty state.
 - Loaded the isolated synthetic fixture and verified its persistent red banner.
 
+- Built the standalone edition, checked that both scripts are inline, and
+  rendered the corrected document using its embedded scientific data.
+
 Scientific limitations are intentional empty/unknown states, not hidden behind
 passing UI tests. No mobile-device emulation has been claimed by this record.
