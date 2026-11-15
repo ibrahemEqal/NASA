@@ -1,0 +1,114 @@
+{
+  "comparisons": [
+    {
+      "target": "sun",
+      "utc": "2026-11-15T00:00:00.000Z",
+      "horizons_azimuth_deg": 251.367305526,
+      "horizons_elevation_deg": 1.385796249,
+      "delta_azimuth_deg": -2.6971316060553363e-06,
+      "delta_elevation_deg": -8.43205294298599e-06,
+      "delta_range_km": -0.004150211811065674,
+      "horizons_angular_diameter_arcsec": 1941.613,
+      "interpretation": "Service comparison: SPICE DE421 vs Horizons documented ephemeris; settings and raw header retained"
+    },
+    {
+      "target": "sun",
+      "utc": "2026-11-15T06:00:00.000Z",
+      "horizons_azimuth_deg": 248.322033772,
+      "horizons_elevation_deg": 1.358936769,
+      "delta_azimuth_deg": -2.6812686542143638e-06,
+      "delta_elevation_deg": -8.130930808869508e-06,
+      "delta_range_km": -0.004274427890777588,
+      "horizons_angular_diameter_arcsec": 1941.497,
+      "interpretation": "Service comparison: SPICE DE421 vs Horizons documented ephemeris; settings and raw header retained"
+    },
+    {
+      "target": "sun",
+      "utc": "2026-11-15T12:00:00.000Z",
+      "horizons_azimuth_deg": 245.277169735,
+      "horizons_elevation_deg": 1.33258372,
+      "delta_azimuth_deg": -2.66696608264283e-06,
+      "delta_elevation_deg": -7.803211381274267e-06,
+      "delta_range_km": -0.004388928413391113,
+      "horizons_angular_diameter_arcsec": 1941.377,
+      "interpretation": "Service comparison: SPICE DE421 vs Horizons documented ephemeris; settings and raw header retained"
+    },
+    {
+      "target": "sun",
+      "utc": "2026-11-15T18:00:00.000Z",
+      "horizons_azimuth_deg": 242.232719859,
+      "horizons_elevation_deg": 1.306814058,
+      "delta_azimuth_deg": -2.6542765851900185e-06,
+      "delta_elevation_deg": -7.449227599209962e-06,
+      "delta_range_km": -0.004491716623306274,
+      "horizons_angular_diameter_arcsec": 1941.251,
+      "interpretation": "Service comparison: SPICE DE421 vs Horizons documented ephemeris; settings and raw header retained"
+    },
+    {
+      "target": "sun",
+      "utc": "2026-11-16T00:00:00.000Z",
+      "horizons_azimuth_deg": 239.188690002,
+      "horizons_elevation_deg": 1.28170276,
+      "delta_azimuth_deg": -2.642471343961006e-06,
+      "delta_elevation_deg": -7.071197908992133e-06,
+      "delta_range_km": -0.004583537578582764,
+      "horizons_angular_diameter_arcsec": 1941.12,
+      "interpretation": "Service comparison: SPICE DE421 vs Horizons documented ephemeris; settings and raw header retained"
+    },
+    {
+      "target": "earth",
+      "utc": "2026-11-15T00:00:00.000Z",
+      "horizons_azimuth_deg": 134.305622655,
+      "horizons_elevation_deg": -3.92611145,
+      "delta_azimuth_deg": -3.826698332431988e-06,
+      "delta_elevation_deg": 6.541244516267142e-06,
+      "delta_range_km": 7.361179450526834e-05,
+      "horizons_angular_diameter_arcsec": 6499.735,
+      "interpretation": "Service comparison: SPICE DE421 vs Horizons documented ephemeris; settings and raw header retained"
+    },
+    {
+      "target": "earth",
+      "utc": "2026-11-15T06:00:00.000Z",
+      "horizons_azimuth_deg": 133.961475694,
+      "horizons_elevation_deg": -3.625493182,
+      "delta_azimuth_deg": -3.7864797093334346e-06,
+      "delta_elevation_deg": 6.600619494978588e-06,
+      "delta_range_km": 9.287340799346566e-05,
+      "horizons_angular_diameter_arcsec": 6506.171,
+      "interpretation": "Service comparison: SPICE DE421 vs Horizons documented ephemeris; settings and raw header retained"
+    },
+    {
+      "target": "earth",
+      "utc": "2026-11-15T12:00:00.000Z",
+      "horizons_azimuth_deg": 133.620796073,
+      "horizons_elevation_deg": -3.316383245,
+      "delta_azimuth_deg": -3.749682690568079e-06,
+      "delta_elevation_deg": 6.664837230552223e-06,
+      "delta_range_km": 0.00011306890519335866,
+      "horizons_angular_diameter_arcsec": 6513.83,
+      "interpretation": "Service comparison: SPICE DE421 vs Horizons documented ephemeris; settings and raw header retained"
+    },
+    {
+      "target": "earth",
+      "utc": "2026-11-15T18:00:00.000Z",
+      "horizons_azimuth_deg": 133.284930494,
+      "horizons_elevation_deg": -2.999454083,
+      "delta_azimuth_deg": -3.7167970958762453e-06,
+      "delta_elevation_deg": 6.7354714521350445e-06,
+      "delta_range_km": 0.00013479578774422407,
+      "horizons_angular_diameter_arcsec": 6522.73,
+      "interpretation": "Service comparison: SPICE DE421 vs Horizons documented ephemeris; settings and raw header retained"
+    },
+    {
+      "target": "earth",
+      "utc": "2026-11-16T00:00:00.000Z",
+      "horizons_azimuth_deg": 132.955268578,
+      "horizons_elevation_deg": -2.675391954,
+      "delta_azimuth_deg": -3.687898185944505e-06,
+      "delta_elevation_deg": 6.811728827660346e-06,
+      "delta_range_km": 0.0001545963459648192,
+      "horizons_angular_diameter_arcsec": 6532.884,
+      "interpretation": "Service comparison: SPICE DE421 vs Horizons documented ephemeris; settings and raw header retained"
+    }
+  ]
+}

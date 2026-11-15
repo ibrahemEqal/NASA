@@ -1,0 +1,277 @@
+{
+  "records": [
+    {
+      "target": "SUN",
+      "utc": "2026-11-15T00:00:00.000Z",
+      "azimuth_deg": 251.3673028288684,
+      "elevation_deg": 1.385787816947057,
+      "range_km": 147814185.51018137,
+      "light_time_s": 493.0550504715546,
+      "topocentric_vector_km": [
+        -61113664.91721842,
+        134528941.57439235,
+        -4014632.897038728
+      ],
+      "radius_inner_km": 695700.0,
+      "radius_outer_km": 695700.0,
+      "angular_radius_inner_deg": 0.2696684410657298,
+      "angular_radius_outer_deg": 0.2696684410657298,
+      "frame": "MOON_ME_DE421",
+      "frame_evaluation": "OBSERVER",
+      "aberration": "CN+S",
+      "observer_moon_fixed_km": [
+        -11.845836058885869,
+        -11.066150469323498,
+        -1739.2734266811199
+      ]
+    },
+    {
+      "target": "SUN",
+      "utc": "2026-11-15T06:00:00.000Z",
+      "azimuth_deg": 248.32203109073134,
+      "elevation_deg": 1.3589286380691912,
+      "range_km": 147822967.4926069,
+      "light_time_s": 493.08434401177277,
+      "topocentric_vector_km": [
+        -53882836.771686494,
+        137594167.34940857,
+        -4014315.779689029
+      ],
+      "radius_inner_km": 695700.0,
+      "radius_outer_km": 695700.0,
+      "angular_radius_inner_deg": 0.26965242027385977,
+      "angular_radius_outer_deg": 0.26965242027385977,
+      "frame": "MOON_ME_DE421",
+      "frame_evaluation": "OBSERVER",
+      "aberration": "CN+S",
+      "observer_moon_fixed_km": [
+        -11.845836058885869,
+        -11.066150469323498,
+        -1739.2734266811199
+      ]
+    },
+    {
+      "target": "SUN",
+      "utc": "2026-11-15T12:00:00.000Z",
+      "azimuth_deg": 245.27716706803392,
+      "elevation_deg": 1.3325759167886186,
+      "range_km": 147832174.2587166,
+      "light_time_s": 493.11505447784356,
+      "topocentric_vector_km": [
+        -46499985.15169256,
+        140271137.32255122,
+        -4013871.0978182703
+      ],
+      "radius_inner_km": 695700.0,
+      "radius_outer_km": 695700.0,
+      "angular_radius_inner_deg": 0.2696356266015425,
+      "angular_radius_outer_deg": 0.2696356266015425,
+      "frame": "MOON_ME_DE421",
+      "frame_evaluation": "OBSERVER",
+      "aberration": "CN+S",
+      "observer_moon_fixed_km": [
+        -11.845836058885869,
+        -11.066150469323498,
+        -1739.2734266811199
+      ]
+    },
+    {
+      "target": "SUN",
+      "utc": "2026-11-15T18:00:00.000Z",
+      "azimuth_deg": 242.23271720472343,
+      "elevation_deg": 1.3068066087724008,
+      "range_km": 147841766.36337918,
+      "light_time_s": 493.1470502949717,
+      "topocentric_vector_km": [
+        -38985942.68782572,
+        142552367.65338737,
+        -4013306.691375464
+      ],
+      "radius_inner_km": 695700.0,
+      "radius_outer_km": 695700.0,
+      "angular_radius_inner_deg": 0.269618132274288,
+      "angular_radius_outer_deg": 0.269618132274288,
+      "frame": "MOON_ME_DE421",
+      "frame_evaluation": "OBSERVER",
+      "aberration": "CN+S",
+      "observer_moon_fixed_km": [
+        -11.845836058885869,
+        -11.066150469323498,
+        -1739.2734266811199
+      ]
+    },
+    {
+      "target": "SUN",
+      "utc": "2026-11-16T00:00:00.000Z",
+      "azimuth_deg": 239.18868735952864,
+      "elevation_deg": 1.281695688802091,
+      "range_km": 147851703.4206411,
+      "light_time_s": 493.1801967501168,
+      "topocentric_vector_km": [
+        -31361907.813722394,
+        144431491.52060845,
+        -4012630.035425402
+      ],
+      "radius_inner_km": 695700.0,
+      "radius_outer_km": 695700.0,
+      "angular_radius_inner_deg": 0.26960001120749294,
+      "angular_radius_outer_deg": 0.26960001120749294,
+      "frame": "MOON_ME_DE421",
+      "frame_evaluation": "OBSERVER",
+      "aberration": "CN+S",
+      "observer_moon_fixed_km": [
+        -11.845836058885869,
+        -11.066150469323498,
+        -1739.2734266811199
+      ]
+    },
+    {
+      "target": "EARTH",
+      "utc": "2026-11-15T00:00:00.000Z",
+      "azimuth_deg": 134.30561882830168,
+      "elevation_deg": -3.926104908755484,
+      "range_km": 404828.69522743725,
+      "light_time_s": 1.3503631743378859,
+      "topocentric_vector_km": [
+        403628.70949472627,
+        -18458.6280575888,
+        25088.172540118074
+      ],
+      "radius_inner_km": 6356.7519,
+      "radius_outer_km": 6378.1366,
+      "angular_radius_inner_deg": 0.8997139487164482,
+      "angular_radius_outer_deg": 0.9027409195277936,
+      "frame": "MOON_ME_DE421",
+      "frame_evaluation": "OBSERVER",
+      "aberration": "CN+S",
+      "observer_moon_fixed_km": [
+        -11.845836058885869,
+        -11.066150469323498,
+        -1739.2734266811199
+      ]
+    },
+    {
+      "target": "EARTH",
+      "utc": "2026-11-15T06:00:00.000Z",
+      "azimuth_deg": 133.9614719075203,
+      "elevation_deg": -3.625486581380505,
+      "range_km": 404428.25114132056,
+      "light_time_s": 1.3490274366452564,
+      "topocentric_vector_km": [
+        403235.5895425938,
+        -20881.641624577423,
+        22961.41743287169
+      ],
+      "radius_inner_km": 6356.7519,
+      "radius_outer_km": 6378.1366,
+      "angular_radius_inner_deg": 0.9006048726054281,
+      "angular_radius_outer_deg": 0.9036348413105912,
+      "frame": "MOON_ME_DE421",
+      "frame_evaluation": "OBSERVER",
+      "aberration": "CN+S",
+      "observer_moon_fixed_km": [
+        -11.845836058885869,
+        -11.066150469323498,
+        -1739.2734266811199
+      ]
+    },
+    {
+      "target": "EARTH",
+      "utc": "2026-11-15T12:00:00.000Z",
+      "azimuth_deg": 133.62079232331732,
+      "elevation_deg": -3.3163765801627694,
+      "range_km": 403952.7371107812,
+      "light_time_s": 1.3474412925717476,
+      "topocentric_vector_km": [
+        402746.3839078893,
+        -23271.985571832352,
+        20774.473662535835
+      ],
+      "radius_inner_km": 6356.7519,
+      "radius_outer_km": 6378.1366,
+      "angular_radius_inner_deg": 0.9016651094818835,
+      "angular_radius_outer_deg": 0.904698645808621,
+      "frame": "MOON_ME_DE421",
+      "frame_evaluation": "OBSERVER",
+      "aberration": "CN+S",
+      "observer_moon_fixed_km": [
+        -11.845836058885869,
+        -11.066150469323498,
+        -1739.2734266811199
+      ]
+    },
+    {
+      "target": "EARTH",
+      "utc": "2026-11-15T18:00:00.000Z",
+      "azimuth_deg": 133.2849267772029,
+      "elevation_deg": -2.9994473475285477,
+      "range_km": 403401.61193919176,
+      "light_time_s": 1.3456029368797258,
+      "topocentric_vector_km": [
+        402160.49225516844,
+        -25618.58413435544,
+        18533.40581679021
+      ],
+      "radius_inner_km": 6356.7519,
+      "radius_outer_km": 6378.1366,
+      "angular_radius_inner_deg": 0.902897061546315,
+      "angular_radius_outer_deg": 0.9059347433066276,
+      "frame": "MOON_ME_DE421",
+      "frame_evaluation": "OBSERVER",
+      "aberration": "CN+S",
+      "observer_moon_fixed_km": [
+        -11.845836058885869,
+        -11.066150469323498,
+        -1739.2734266811199
+      ]
+    },
+    {
+      "target": "EARTH",
+      "utc": "2026-11-16T00:00:00.000Z",
+      "azimuth_deg": 132.9552648901018,
+      "elevation_deg": -2.6753851422711725,
+      "range_km": 402774.6735612506,
+      "light_time_s": 1.3435116955518962,
+      "topocentric_vector_km": [
+        401477.99343094573,
+        -27910.14677069614,
+        16244.450137560023
+      ],
+      "radius_inner_km": 6356.7519,
+      "radius_outer_km": 6378.1366,
+      "angular_radius_inner_deg": 0.9043025813750467,
+      "angular_radius_outer_deg": 0.9073449926159173,
+      "frame": "MOON_ME_DE421",
+      "frame_evaluation": "OBSERVER",
+      "aberration": "CN+S",
+      "observer_moon_fixed_km": [
+        -11.845836058885869,
+        -11.066150469323498,
+        -1739.2734266811199
+      ]
+    }
+  ],
+  "kernels": [
+    {
+      "filename": "naif0012.tls",
+      "sha256": "678e32bdb5a744117a467cd9601cd6b373f0e9bc9bbde1371d5eee39600a039b"
+    },
+    {
+      "filename": "pck00011.tpc",
+      "sha256": "3dff7b1dbeceaa01f25467767d3fa25816051c85d162d1edf04acb310ee28bb1"
+    },
+    {
+      "filename": "moon_080317.tf",
+      "sha256": "78732477b96f9863e7b0d65bcee3c22b8707ca5ed0db56d1173319cb2e8c7993"
+    },
+    {
+      "filename": "moon_pa_de421_1900-2050.bpc",
+      "sha256": "656f90616403d75a75f0cd6c8830fc5b44f8cb4facb5ccb8915e752b397520cf"
+    },
+    {
+      "filename": "de421.bsp",
+      "sha256": "08b20db2ae22488650641c5a9033e5bfda4b1c4b440cfeaf20f621cfa18ecdb3"
+    }
+  ],
+  "description": "Validation epochs only, not a mission recommendation; DE421 ephemeris and MOON_ME_DE421 observer frame"
+}

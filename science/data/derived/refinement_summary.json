@@ -1,0 +1,127 @@
+{
+  "cases": {
+    "near5": {
+      "min_horizon_deg": -2.631140979301503,
+      "max_horizon_deg": 0.9718448357844417,
+      "complete_rays": 720,
+      "ray_count": 720,
+      "compute_seconds": 3.738883309999892
+    },
+    "near1": {
+      "min_horizon_deg": -2.631140979301503,
+      "max_horizon_deg": 0.9794772566249191,
+      "complete_rays": 720,
+      "ray_count": 720,
+      "compute_seconds": 4.521922192999909
+    },
+    "near0p25": {
+      "min_horizon_deg": -2.631140979301503,
+      "max_horizon_deg": 0.9794772566249191,
+      "complete_rays": 720,
+      "ray_count": 720,
+      "compute_seconds": 7.238679539000032
+    },
+    "range250": {
+      "min_horizon_deg": -2.6092968085851367,
+      "max_horizon_deg": 0.9794772566249191,
+      "complete_rays": 720,
+      "ray_count": 720,
+      "compute_seconds": 6.818045744000074
+    },
+    "range275": {
+      "min_horizon_deg": -2.6092968085851367,
+      "max_horizon_deg": 0.9794772566249191,
+      "complete_rays": 720,
+      "ray_count": 720,
+      "compute_seconds": 7.36341333900009
+    },
+    "refined": {
+      "min_horizon_deg": -2.6092968085851367,
+      "max_horizon_deg": 0.982585543292946,
+      "complete_rays": 2880,
+      "ray_count": 2880,
+      "compute_seconds": 29.950743685999896
+    }
+  },
+  "comparisons": {
+    "near5__near1": {
+      "max_abs_difference_deg": 0.03300935746513467,
+      "median_abs_difference_deg": 6.463429787734176e-05,
+      "increased_rays_over_0p01deg": 42,
+      "decreased_rays_over_0p01deg": 0
+    },
+    "near1__near0p25": {
+      "max_abs_difference_deg": 0.006424870586013043,
+      "median_abs_difference_deg": 0.0,
+      "increased_rays_over_0p01deg": 0,
+      "decreased_rays_over_0p01deg": 0
+    },
+    "near1__range250": {
+      "max_abs_difference_deg": 0.4332653244494544,
+      "median_abs_difference_deg": 0.0,
+      "increased_rays_over_0p01deg": 46,
+      "decreased_rays_over_0p01deg": 0
+    },
+    "range250__range275": {
+      "max_abs_difference_deg": 0.0,
+      "median_abs_difference_deg": 0.0,
+      "increased_rays_over_0p01deg": 0,
+      "decreased_rays_over_0p01deg": 0
+    },
+    "range275__refined": {
+      "max_abs_difference_deg": 0.0,
+      "median_abs_difference_deg": 0.0,
+      "increased_rays_over_0p01deg": 0,
+      "decreased_rays_over_0p01deg": 0
+    }
+  },
+  "provenance": {
+    "created_utc": "2026-11-15T00:03:43.902387+00:00",
+    "code_origin": "reconstructed v0.2.0; original v0.1.1 unavailable",
+    "source_hashes": {
+      "__init__.py": "195d3838f779c259a2707f41e41d7539ed4169a3afc6b2f1357561941108c2de",
+      "cli.py": "b8ddf75106ec46ae31fa89f8e44f9ac26406481a0bc7361195ae6a7941a60bd1",
+      "dem.py": "eb317a5e7bc2a494316751a8cfe2fb46673e310e1915d05c723fdbd973a9d7a6",
+      "disk.py": "9ff6125d6c532d7aa7065c3d970617abca3b87b77cd3cda7c24e1467718607e0",
+      "ephemeris.py": "ba29402f56ad76d1708355d8a0965048bffba039f8fe5771a0c6ef09f2e1205d",
+      "fragility.py": "f05a06408095fc68410d9170353ba9647b0298591004634cf33773d0f8c8d86c",
+      "geometry.py": "cedbf114b85dc57dd3ad3c04fb7546e665b96f33bc8d6de957a661eaa255cafb",
+      "horizon.py": "4e57755e2557c343884480fc641bbc4dbcd2261731a8d172ff8906e2b64b26d9",
+      "intervals.py": "8e6c7953ffd53380669bf1cf4eb82fef5a51a21106bc68cf343dcf7f84ea04c5",
+      "pipeline.py": "b8eab4ad0dbf8c49e12ad0a8c3e6023508442af622fd0cf58a4e5ca91958f0ab",
+      "provenance.py": "0ec01d45ccef5580b0aecf7e8b1655d2c18ac4299b1f04e686c7ec814107ca64"
+    },
+    "dem_filename": "LDEM_80S_80MPP_ADJ (1).tiff",
+    "dem_sha256": "82030dcbdd7c4bb0c7d858e9b4b293b9f2cda5a543ba31ec0f42784bd6beee5a",
+    "metadata": {
+      "width": 7600,
+      "height": 7600,
+      "dtype": "float32",
+      "resolution_m": [
+        80.0,
+        80.0
+      ],
+      "crs_wkt": "PROJCS[\"Moon (2015) - Sphere / Ocentric / South Polar\",GEOGCS[\"Moon (2015) - Sphere / Ocentric\",DATUM[\"Moon (2015) - Sphere\",SPHEROID[\"Moon (2015) - Sphere\",1737400,0,AUTHORITY[\"IAU\",\"30100\"]],AUTHORITY[\"IAU\",\"30100\"]],PRIMEM[\"Reference Meridian\",0,AUTHORITY[\"IAU\",\"30100\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"IAU\",\"30100\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH],AUTHORITY[\"IAU\",\"30135\"]]",
+      "bounds_m": [
+        -304000.0,
+        -304000.0,
+        304000.0,
+        304000.0
+      ],
+      "scale": 1.0,
+      "offset": 0.0,
+      "reference_radius_m": 1737400.0,
+      "nodata": "nan",
+      "frame": "MOON_ME (DE421), from NASA product 90 documentation"
+    },
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.5.4",
+      "rasterio": "1.5.2",
+      "pyproj": "3.8.0"
+    },
+    "nasa_product": "https://pgda.gsfc.nasa.gov/products/90",
+    "nasa_data": "https://pgda.gsfc.nasa.gov/data/LOLA_20mpp/LDEM_80S_80MPP_ADJ.TIF",
+    "site_source": "https://doi.org/10.1029/2025JE009434, Wueller et al. (2026), Table A1"
+  }
+}

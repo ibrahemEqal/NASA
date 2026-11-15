@@ -1,0 +1,322 @@
+{
+  "load_seconds": 1.87606039100001,
+  "provenance": {
+    "created_utc": "2026-11-15T00:02:59.493533+00:00",
+    "code_origin": "reconstructed v0.2.0; original v0.1.1 unavailable",
+    "source_hashes": {
+      "__init__.py": "195d3838f779c259a2707f41e41d7539ed4169a3afc6b2f1357561941108c2de",
+      "cli.py": "b8ddf75106ec46ae31fa89f8e44f9ac26406481a0bc7361195ae6a7941a60bd1",
+      "dem.py": "eb317a5e7bc2a494316751a8cfe2fb46673e310e1915d05c723fdbd973a9d7a6",
+      "disk.py": "9ff6125d6c532d7aa7065c3d970617abca3b87b77cd3cda7c24e1467718607e0",
+      "ephemeris.py": "ba29402f56ad76d1708355d8a0965048bffba039f8fe5771a0c6ef09f2e1205d",
+      "fragility.py": "f05a06408095fc68410d9170353ba9647b0298591004634cf33773d0f8c8d86c",
+      "geometry.py": "cedbf114b85dc57dd3ad3c04fb7546e665b96f33bc8d6de957a661eaa255cafb",
+      "horizon.py": "4e57755e2557c343884480fc641bbc4dbcd2261731a8d172ff8906e2b64b26d9",
+      "intervals.py": "8e6c7953ffd53380669bf1cf4eb82fef5a51a21106bc68cf343dcf7f84ea04c5",
+      "pipeline.py": "b8eab4ad0dbf8c49e12ad0a8c3e6023508442af622fd0cf58a4e5ca91958f0ab",
+      "provenance.py": "0ec01d45ccef5580b0aecf7e8b1655d2c18ac4299b1f04e686c7ec814107ca64"
+    },
+    "dem_filename": "LDEM_80S_80MPP_ADJ (1).tiff",
+    "dem_sha256": "82030dcbdd7c4bb0c7d858e9b4b293b9f2cda5a543ba31ec0f42784bd6beee5a",
+    "metadata": {
+      "width": 7600,
+      "height": 7600,
+      "dtype": "float32",
+      "resolution_m": [
+        80.0,
+        80.0
+      ],
+      "crs_wkt": "PROJCS[\"Moon (2015) - Sphere / Ocentric / South Polar\",GEOGCS[\"Moon (2015) - Sphere / Ocentric\",DATUM[\"Moon (2015) - Sphere\",SPHEROID[\"Moon (2015) - Sphere\",1737400,0,AUTHORITY[\"IAU\",\"30100\"]],AUTHORITY[\"IAU\",\"30100\"]],PRIMEM[\"Reference Meridian\",0,AUTHORITY[\"IAU\",\"30100\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"IAU\",\"30100\"]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH],AUTHORITY[\"IAU\",\"30135\"]]",
+      "bounds_m": [
+        -304000.0,
+        -304000.0,
+        304000.0,
+        304000.0
+      ],
+      "scale": 1.0,
+      "offset": 0.0,
+      "reference_radius_m": 1737400.0,
+      "nodata": "nan",
+      "frame": "MOON_ME (DE421), from NASA product 90 documentation"
+    },
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.5.4",
+      "rasterio": "1.5.2",
+      "pyproj": "3.8.0"
+    },
+    "nasa_product": "https://pgda.gsfc.nasa.gov/products/90",
+    "nasa_data": "https://pgda.gsfc.nasa.gov/data/LOLA_20mpp/LDEM_80S_80MPP_ADJ.TIF",
+    "site_source": "https://doi.org/10.1029/2025JE009434, Wueller et al. (2026), Table A1"
+  },
+  "cases": {
+    "baseline": {
+      "compute_seconds": 0.3938328240001283,
+      "rays": 720,
+      "complete_rays": 720,
+      "min_horizon_deg": -3.1778681164159686,
+      "max_horizon_deg": 0.8379583203844355,
+      "settings": {
+        "azimuth_step_deg": 0.5,
+        "radial_step_m": 80,
+        "min_range_m": 80.0,
+        "max_range_m": 50000,
+        "southern_coverage_limit_deg": -80.0,
+        "chunk_rays": 32,
+        "reference_radius_m": 1737400.0,
+        "custom_distances_m": null
+      }
+    },
+    "radial40": {
+      "compute_seconds": 0.6441853050000645,
+      "rays": 720,
+      "complete_rays": 720,
+      "min_horizon_deg": -3.1376048058637243,
+      "max_horizon_deg": 0.9380854645062314,
+      "settings": {
+        "azimuth_step_deg": 0.5,
+        "radial_step_m": 40,
+        "min_range_m": 80.0,
+        "max_range_m": 50000,
+        "southern_coverage_limit_deg": -80.0,
+        "chunk_rays": 32,
+        "reference_radius_m": 1737400.0,
+        "custom_distances_m": null
+      }
+    },
+    "radial20": {
+      "compute_seconds": 1.1674433880000379,
+      "rays": 720,
+      "complete_rays": 720,
+      "min_horizon_deg": -3.1301859448335003,
+      "max_horizon_deg": 0.9380854645062314,
+      "settings": {
+        "azimuth_step_deg": 0.5,
+        "radial_step_m": 20,
+        "min_range_m": 80.0,
+        "max_range_m": 50000,
+        "southern_coverage_limit_deg": -80.0,
+        "chunk_rays": 32,
+        "reference_radius_m": 1737400.0,
+        "custom_distances_m": null
+      }
+    },
+    "radial10": {
+      "compute_seconds": 2.2525372300001436,
+      "rays": 720,
+      "complete_rays": 720,
+      "min_horizon_deg": -3.1301859448335003,
+      "max_horizon_deg": 0.9718448357844417,
+      "settings": {
+        "azimuth_step_deg": 0.5,
+        "radial_step_m": 10,
+        "min_range_m": 80.0,
+        "max_range_m": 50000,
+        "southern_coverage_limit_deg": -80.0,
+        "chunk_rays": 32,
+        "reference_radius_m": 1737400.0,
+        "custom_distances_m": null
+      }
+    },
+    "nearfield": {
+      "compute_seconds": 2.367292163000002,
+      "rays": 720,
+      "complete_rays": 720,
+      "min_horizon_deg": -3.1301859448335003,
+      "max_horizon_deg": 0.9718448357844417,
+      "settings": {
+        "azimuth_step_deg": 0.5,
+        "radial_step_m": 10,
+        "min_range_m": 10.0,
+        "max_range_m": 50000,
+        "southern_coverage_limit_deg": -80.0,
+        "chunk_rays": 32,
+        "reference_radius_m": 1737400.0,
+        "custom_distances_m": null
+      }
+    },
+    "range50": {
+      "compute_seconds": 1.1558746520001932,
+      "rays": 720,
+      "complete_rays": 720,
+      "min_horizon_deg": -3.1301859448335003,
+      "max_horizon_deg": 0.9380854645062314,
+      "settings": {
+        "azimuth_step_deg": 0.5,
+        "radial_step_m": 20,
+        "min_range_m": 20.0,
+        "max_range_m": 50000,
+        "southern_coverage_limit_deg": -80.0,
+        "chunk_rays": 32,
+        "reference_radius_m": 1737400.0,
+        "custom_distances_m": null
+      }
+    },
+    "range100": {
+      "compute_seconds": 2.3409504539999944,
+      "rays": 720,
+      "complete_rays": 720,
+      "min_horizon_deg": -2.8896138023993534,
+      "max_horizon_deg": 0.9380854645062314,
+      "settings": {
+        "azimuth_step_deg": 0.5,
+        "radial_step_m": 20,
+        "min_range_m": 20.0,
+        "max_range_m": 100000,
+        "southern_coverage_limit_deg": -80.0,
+        "chunk_rays": 32,
+        "reference_radius_m": 1737400.0,
+        "custom_distances_m": null
+      }
+    },
+    "range150": {
+      "compute_seconds": 3.521837742000116,
+      "rays": 720,
+      "complete_rays": 720,
+      "min_horizon_deg": -2.631140979301503,
+      "max_horizon_deg": 0.9380854645062314,
+      "settings": {
+        "azimuth_step_deg": 0.5,
+        "radial_step_m": 20,
+        "min_range_m": 20.0,
+        "max_range_m": 150000,
+        "southern_coverage_limit_deg": -80.0,
+        "chunk_rays": 32,
+        "reference_radius_m": 1737400.0,
+        "custom_distances_m": null
+      }
+    },
+    "angular025": {
+      "compute_seconds": 6.901436698999987,
+      "rays": 1440,
+      "complete_rays": 1440,
+      "min_horizon_deg": -2.6356323403290793,
+      "max_horizon_deg": 0.9380854645062314,
+      "settings": {
+        "azimuth_step_deg": 0.25,
+        "radial_step_m": 20,
+        "min_range_m": 20.0,
+        "max_range_m": 150000,
+        "southern_coverage_limit_deg": -80.0,
+        "chunk_rays": 32,
+        "reference_radius_m": 1737400.0,
+        "custom_distances_m": null
+      }
+    },
+    "angular0125": {
+      "compute_seconds": 13.779634666999982,
+      "rays": 2880,
+      "complete_rays": 2880,
+      "min_horizon_deg": -2.6434719546316368,
+      "max_horizon_deg": 0.9380854645062314,
+      "settings": {
+        "azimuth_step_deg": 0.125,
+        "radial_step_m": 20,
+        "min_range_m": 20.0,
+        "max_range_m": 150000,
+        "southern_coverage_limit_deg": -80.0,
+        "chunk_rays": 32,
+        "reference_radius_m": 1737400.0,
+        "custom_distances_m": null
+      }
+    },
+    "mast0": {
+      "compute_seconds": 3.607255129999885,
+      "rays": 720,
+      "complete_rays": 720,
+      "min_horizon_deg": -1.8192921238506796,
+      "max_horizon_deg": 2.463192601487377,
+      "settings": {
+        "azimuth_step_deg": 0.5,
+        "radial_step_m": 20,
+        "min_range_m": 20.0,
+        "max_range_m": 150000,
+        "southern_coverage_limit_deg": -80.0,
+        "chunk_rays": 32,
+        "reference_radius_m": 1737400.0,
+        "custom_distances_m": null
+      }
+    },
+    "mast4": {
+      "compute_seconds": 3.5281129290001445,
+      "rays": 720,
+      "complete_rays": 720,
+      "min_horizon_deg": -2.8017331595411767,
+      "max_horizon_deg": 0.6779951936388038,
+      "settings": {
+        "azimuth_step_deg": 0.5,
+        "radial_step_m": 20,
+        "min_range_m": 20.0,
+        "max_range_m": 150000,
+        "southern_coverage_limit_deg": -80.0,
+        "chunk_rays": 32,
+        "reference_radius_m": 1737400.0,
+        "custom_distances_m": null
+      }
+    }
+  },
+  "comparisons": {
+    "baseline__radial40": {
+      "max_abs_difference_deg": 0.38450310430655843,
+      "median_abs_difference_deg": 0.00023834352507123846,
+      "increased_rays_over_0p01deg": 282,
+      "decreased_rays_over_0p01deg": 0
+    },
+    "radial40__radial20": {
+      "max_abs_difference_deg": 0.24761606339859732,
+      "median_abs_difference_deg": 0.0,
+      "increased_rays_over_0p01deg": 193,
+      "decreased_rays_over_0p01deg": 0
+    },
+    "radial20__radial10": {
+      "max_abs_difference_deg": 0.15892503687260096,
+      "median_abs_difference_deg": 0.0,
+      "increased_rays_over_0p01deg": 147,
+      "decreased_rays_over_0p01deg": 0
+    },
+    "radial10__nearfield": {
+      "max_abs_difference_deg": 0.11676880300293235,
+      "median_abs_difference_deg": 0.0,
+      "increased_rays_over_0p01deg": 55,
+      "decreased_rays_over_0p01deg": 0
+    },
+    "range50__range100": {
+      "max_abs_difference_deg": 1.2371557813539262,
+      "median_abs_difference_deg": 0.0,
+      "increased_rays_over_0p01deg": 49,
+      "decreased_rays_over_0p01deg": 0
+    },
+    "range100__range150": {
+      "max_abs_difference_deg": 1.890267502089701,
+      "median_abs_difference_deg": 0.0,
+      "increased_rays_over_0p01deg": 115,
+      "decreased_rays_over_0p01deg": 0
+    },
+    "range150__angular025": {
+      "max_abs_difference_deg": 0.0,
+      "median_abs_difference_deg": 0.0,
+      "increased_rays_over_0p01deg": 0,
+      "decreased_rays_over_0p01deg": 0,
+      "interstitial_max_abs_linear_error_deg": 0.043904775415374964
+    },
+    "angular025__angular0125": {
+      "max_abs_difference_deg": 0.0,
+      "median_abs_difference_deg": 0.0,
+      "increased_rays_over_0p01deg": 0,
+      "decreased_rays_over_0p01deg": 0,
+      "interstitial_max_abs_linear_error_deg": 0.017164610772071986
+    },
+    "mast0__range150": {
+      "max_abs_difference_deg": 3.074428523884004,
+      "median_abs_difference_deg": 1.6267520895111418,
+      "increased_rays_over_0p01deg": 0,
+      "decreased_rays_over_0p01deg": 668
+    },
+    "range150__mast4": {
+      "max_abs_difference_deg": 1.3033989006533278,
+      "median_abs_difference_deg": 0.2861332011692427,
+      "increased_rays_over_0p01deg": 0,
+      "decreased_rays_over_0p01deg": 493
+    }
+  }
+}
