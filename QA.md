@@ -26,3 +26,12 @@ Manual browser checks completed against the local preview:
 
 Scientific limitations are intentional empty/unknown states, not hidden behind
 passing UI tests. No mobile-device emulation has been claimed by this record.
+
+## Readability revision
+
+- Main copy is 18px, with larger controls, tables, and scientific values.
+- SVG viewBox widths now follow their rendered widths, keeping tick and
+  annotation text at 14–15 screen pixels instead of shrinking on narrow screens.
+- Reviewed desktop, 390px and 320px iframe viewports in English/Arabic.
+- Narrow Arabic axis titles wrap; no page-width overflow or clipped SVG text
+  remained in the reviewed narrow layout.
